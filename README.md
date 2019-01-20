@@ -1,4 +1,4 @@
-# MNIST-classifier
+# MNIST Optical Character Recognition Classifier
 Utilising a Random-forest classifier to do multiclass predictions on the MNIST Optical Character Dataset, which is composed of 70000 bitmaps for handwritten digits between 0 and 9
 ## Initial Model
 First I split data into training and test sets of 60,000 and 10,000 respectively. I then used the training data to train a random forest classifier model, chosen due to its ability to do multiclass classification without having to use OvO or OvA. This initial model had an effective accuracy score of 94.92%
